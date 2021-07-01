@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 500000000
+              "duration": 565000000
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3506000000
+              "duration": 3727000000
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3891000000
+              "duration": 3403000000
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1968000000
+              "duration": 1978000000
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 346000000
+              "duration": 478000000
             }
           }
         ],
@@ -95,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 518000000
+              "duration": 615000000
             }
           },
           {
@@ -108,7 +108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4555000000
+              "duration": 6753000000
             }
           },
           {
@@ -121,7 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3164000000
+              "duration": 3924000000
             }
           },
           {
@@ -134,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 124000000
+              "duration": 184000000
             }
           },
           {
@@ -147,7 +147,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 275000000
+              "duration": 322000000
             }
           }
         ],
