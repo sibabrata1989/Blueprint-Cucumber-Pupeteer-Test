@@ -1,0 +1,165 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-blueprint-application;scenario-outline-name:-verify-login-positive",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Scenario Outline name: Verify login-Positive",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The browser is open",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "open the login page",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter the username \"admin@blueprint-dev.com\" and password \"Test1234!\"",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify the home page",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1968000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-blueprint-application;scenario-outline-name:-verify-login-negative",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Scenario Outline name: Verify login-Negative",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "The browser is open",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 518000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "open the login page",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Enter the username \"admin@blueprint-dev.com\" and password \"Test!\"",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3164000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Verify error message \"Invalid username or password.\"",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "close the browser",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-blueprint-application",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login to blueprint application",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
