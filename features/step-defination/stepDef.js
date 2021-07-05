@@ -8,7 +8,6 @@ setDefaultTimeout(60 * 1000);
 Given("The browser is open", async function () {
   this.browser = await puppeteer.launch({ headless: false });
   this.page = await this.browser.newPage();
-
 });
 
 When("open the login page", async function () {
@@ -29,8 +28,9 @@ Then("Verify the home page", async function () {
 
 Then("Verify error message {string}", async function (errorMsg) {
   const msg =  await this.page.$eval("span[class='kc-feedback-text']", ele => ele.textContent);
-  expect (msg).to.include(errorMsg)
   await this.page.screenshot({path: './screenshots/LoginFailure.png'});
+  expect (msg).to.include(errorMsg)
+  
 });
 
 Then("close the browser", async function () {

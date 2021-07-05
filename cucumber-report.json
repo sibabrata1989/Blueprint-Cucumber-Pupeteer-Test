@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 565000000
+              "duration": 647000000
             }
           },
           {
@@ -28,11 +28,11 @@
             "line": 5,
             "name": "open the login page",
             "match": {
-              "location": "features\\step-defination\\stepDef.js:14"
+              "location": "features\\step-defination\\stepDef.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 3727000000
+              "duration": 3331000000
             }
           },
           {
@@ -41,11 +41,11 @@
             "line": 6,
             "name": "Enter the username \"admin@blueprint-dev.com\" and password \"Test1234!\"",
             "match": {
-              "location": "features\\step-defination\\stepDef.js:18"
+              "location": "features\\step-defination\\stepDef.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 3403000000
+              "duration": 2908000000
             }
           },
           {
@@ -54,11 +54,11 @@
             "line": 7,
             "name": "Verify the home page",
             "match": {
-              "location": "features\\step-defination\\stepDef.js:25"
+              "location": "features\\step-defination\\stepDef.js:24"
             },
             "result": {
               "status": "passed",
-              "duration": 1978000000
+              "duration": 2970000000
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 478000000
+              "duration": 374000000
             }
           }
         ],
@@ -95,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 615000000
+              "duration": 559000000
             }
           },
           {
@@ -104,11 +104,11 @@
             "line": 13,
             "name": "open the login page",
             "match": {
-              "location": "features\\step-defination\\stepDef.js:14"
+              "location": "features\\step-defination\\stepDef.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 6753000000
+              "duration": 3857000000
             }
           },
           {
@@ -117,11 +117,11 @@
             "line": 14,
             "name": "Enter the username \"admin@blueprint-dev.com\" and password \"Test!\"",
             "match": {
-              "location": "features\\step-defination\\stepDef.js:18"
+              "location": "features\\step-defination\\stepDef.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 3924000000
+              "duration": 3626000000
             }
           },
           {
@@ -130,11 +130,11 @@
             "line": 15,
             "name": "Verify error message \"Invalid username or password.\"",
             "match": {
-              "location": "features\\step-defination\\stepDef.js:30"
+              "location": "features\\step-defination\\stepDef.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 184000000
+              "duration": 213000000
             }
           },
           {
@@ -147,7 +147,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 322000000
+              "duration": 267000000
             }
           }
         ],
