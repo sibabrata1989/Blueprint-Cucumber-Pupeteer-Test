@@ -1,6 +1,6 @@
 [
   {
-    "description": "",
+    "description": "    To check login -positive test case",
     "elements": [
       {
         "description": "",
@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 647000000
+              "duration": 2553000000
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3331000000
+              "duration": 3247000000
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2908000000
+              "duration": 2747000000
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2970000000
+              "duration": 2577000000
             }
           },
           {
@@ -67,11 +67,11 @@
             "line": 8,
             "name": "close the browser",
             "match": {
-              "location": "features\\step-defination\\stepDef.js:36"
+              "location": "features\\step-defination\\stepDef.js:44"
             },
             "result": {
               "status": "passed",
-              "duration": 374000000
+              "duration": 351000000
             }
           }
         ],
@@ -95,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 559000000
+              "duration": 617000000
             }
           },
           {
@@ -108,7 +108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3857000000
+              "duration": 2961000000
             }
           },
           {
@@ -121,7 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3626000000
+              "duration": 3181000000
             }
           },
           {
@@ -134,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 213000000
+              "duration": 323000000
             }
           },
           {
@@ -143,11 +143,11 @@
             "line": 16,
             "name": "close the browser",
             "match": {
-              "location": "features\\step-defination\\stepDef.js:36"
+              "location": "features\\step-defination\\stepDef.js:44"
             },
             "result": {
               "status": "passed",
-              "duration": 267000000
+              "duration": 332000000
             }
           }
         ],
@@ -161,5 +161,92 @@
     "name": "Login to blueprint application",
     "tags": [],
     "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-the-sponser-dropdown;scenario-outline-name:-verify-sponser-dropdown",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Scenario Outline name: Verify Sponser Dropdown",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The browser is open",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "open the login page",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter the username \"admin@blueprint-dev.com\" and password \"Test1234!\"",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify the sponser drop down",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "features\\step-defination\\stepDef.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-the-sponser-dropdown",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify the Sponser dropdown",
+    "tags": [],
+    "uri": "features\\sponser.feature"
   }
 ]

@@ -1,5 +1,5 @@
 Feature: Login to blueprint application
-    # To check login -positive test case
+    To check login -positive test case
     Scenario: Scenario Outline name: Verify login-Positive
         Given The browser is open
         When open the login page
